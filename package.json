@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/keewook2/Liri-Bot/issues"
   },
-  "homepage": "https://github.com/keewook2/Liri-Bot#readme"
+  "homepage": "https://github.com/keewook2/Liri-Bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-spotify-api": "^1.1.1"
+  }
 }
