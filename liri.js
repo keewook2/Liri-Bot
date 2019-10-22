@@ -3,6 +3,7 @@ var keys = require("./keys.js");
 var axios = require("axios");
 var fs = require("fs");
 var Spotify = require("node-spotify-api");
+var moment = require("moment");
 var spotify = new Spotify(keys.spotify);
 var input = process.argv[3];
 
@@ -32,18 +33,22 @@ function concertThis(artist){
         // console.log(JSON.stringify(response.data[0], null, 2));
         
         // IF WE WANT TO LIST ALL OF THE UPCOMING EVENTS
-        // for (events in response.data){
-        //     console.log("============");
-        //     console.log(response.data[events].venue.name);
-        //     console.log(response.data[events].venue.city);
-        //     console.log(response.data[events].datetime);
-        //     console.log("============");
-        // }
+        for (events in response.data){
+            console.log("============");
+            console.log(response.data[events].venue.name);
+            console.log(response.data[events].venue.city);
+            var rawDate = response.data[events].datetime;
+            var formattedDate = moment(rawDate).format("MM/DD/YYYY");
+            console.log(formattedDate);
+            console.log("============");
+        }
 
-        //IF WE WANT TO LIST JUST ONE UPCOMING EVENT
-        console.log(response.data[0].venue.name);
-        console.log(response.data[0].venue.city);
-        console.log(response.data[0].datetime);
+        // //IF WE WANT TO LIST JUST ONE UPCOMING EVENT
+        // console.log(response.data[0].venue.name);
+        // console.log(response.data[0].venue.city);
+        // var rawDate = response.data[0].datetime;
+        // var formattedDate = moment(rawDate).format("MM/DD/YYYY");
+        // console.log(formattedDate);
         
     }).catch(function(err){
         console.log(err);
