@@ -24,7 +24,7 @@
     * A preview link of the song from Spotify
     * The album that the song is from
 
-![Screenshot of spotify-this-song](/images/screenshot_sptify-this-song.png)
+![Screenshot of spotify-this-song](/images/screenshot_spotify-this-song.png)
 
 - movie-this
   - To use this function, type **node liri.js movie-this *<movie-name>*** in Terminal
