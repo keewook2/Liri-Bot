@@ -12,8 +12,7 @@
     * Venue Location
     * Date of the Event
 
-![Screenshot of concert-this]
-(/images/screenshot_concert-this.png)
+![Screenshot of concert-this](/images/screenshot_concert-this.png)
 
 - spotify-this-song
   - To use this function, type **node liri.js spotify-this-song *<song-name>*** in Terminal
