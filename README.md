@@ -13,7 +13,7 @@
     * Date of the Event
 
 ![Screenshot of concert-this]
-(https://raw.githubusercontent.com/keewook2/Liri-Bot/master/images/screenshot_concert-this.png)
+(/images/screenshot_concert-this.png)
 
 - spotify-this-song
   - To use this function, type **node liri.js spotify-this-song *<song-name>*** in Terminal
