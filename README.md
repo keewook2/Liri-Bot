@@ -15,7 +15,7 @@
 ![Screenshot of concert-this](/images/screenshot_concert-this.png)
 
 - spotify-this-song
-  - To use this function, type **node liri.js spotify-this-song *<song-name>*** in Terminal
+  - To use this function, type **node liri.js spotify-this-song *song-name*** in Terminal
 
   * This will search the [node-spotify-api] package to retrieve song information from spotify API. It will render following information to the terminal:
 
@@ -27,7 +27,7 @@
 ![Screenshot of spotify-this-song](/images/screenshot_spotify-this-song.png)
 
 - movie-this
-  - To use this function, type **node liri.js movie-this *<movie-name>*** in Terminal
+  - To use this function, type **node liri.js movie-this *movie-name*** in Terminal
 
   * This will search the OMDB API to retrieve the following information about movie to the terinal:
 
