@@ -24,8 +24,7 @@
     * A preview link of the song from Spotify
     * The album that the song is from
 
-![Screenshot of spotify-this-song]
-(https://raw.githubusercontent.com/keewook2/Liri-Bot/master/images/screenshot_spotify-this-song.png)
+![Screenshot of spotify-this-song](/images/screenshot_sptify-this-song.png)
 
 - movie-this
   - To use this function, type **node liri.js movie-this *<movie-name>*** in Terminal
@@ -41,16 +40,13 @@
     * Plot of the movie.
     * Actors in the movie.
 
-![Screenshot of movie-this]
-(https://raw.githubusercontent.com/keewook2/Liri-Bot/master/images/screenshot_movie-this.png)
+![Screenshot of movie-this](/images/screenshot_movie-this.png)
 
 - do-what-it-says
   - To use this function, type **node liri.js do-what-it-says** in Terminal
 
   * This will take the text inside of `random.txt` using fs package and then use it to call the liri commands.
 
-![Screenshot of random.txt]
-(https://raw.githubusercontent.com/keewook2/Liri-Bot/master/images/screenshot_random-txt.png)
+![Screenshot of random.txt](/images/screenshot_random-txt.png)
 
-![Screenshot of do-what-it-says]
-(https://raw.githubusercontent.com/keewook2/Liri-Bot/master/images/screenshot_do-what-it-says.png)
+![Screenshot of do-what-it-says](/images/screenshot_do-what-it-says.png)
